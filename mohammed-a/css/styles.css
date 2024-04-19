@@ -1,0 +1,83 @@
+*{
+  box-sizing: border-box;
+}
+
+main {
+  display: block;
+  unicode-bidi: isolate;
+}
+
+body {
+  padding-bottom: 3rem;
+  color: rgb(var(--bs-tertiary-color-rgb));
+}
+
+body {
+  font-family: var(--bs-body-font-family);
+  font-size: var(--bs-body-font-size);
+  font-weight: var(--bs-body-font-weight);
+  line-height: var(--bs-body-line-height);
+  text-align: var(--bs-body-text-align);
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+}
+
+
+.custom-carousel {
+  position: relative;
+  height: 35rem; /* Adjust height */
+  overflow: hidden;
+}
+.carousel-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+/* .carousel-overlay {
+  position: absolute;
+  top: 90%;
+  transform: translateY(-70%);
+  width: 60%;
+  z-index: 1;
+} */
+
+.card-img-top {
+  height: 200px; /* Adjust this value as needed to maintain the desired aspect ratio */
+  object-fit: cover; /* Ensure the image covers the entire space while maintaining its aspect ratio */
+}
+
+a{
+  text-decoration: none;
+}
+
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.py-5 {
+  padding-top: 3rem !important;
+  padding-bottom: 3rem !important;
+}
+.g-4, .gy-4 {
+  --bs-gutter-y: 1.5rem;
+}
+.g-4, .gx-4 {
+  --bs-gutter-x: 1.5rem;
+}
+.row {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(-1* var(--bs-gutter-y));
+  margin-right: calc(-.5* var(--bs-gutter-x));
+  margin-left: calc(-.5* var(--bs-gutter-x));
+}

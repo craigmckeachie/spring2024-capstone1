@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="css/products.css" />
+  </head>
+
+  <body>
+    <header>
+      <svg
+        id="logo-64"
+        width="80"
+        height="80"
+        viewBox="0 0 50 50"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          class="ccustom"
+          d="M27.5308 40.1395C27.5757 35.5502 26.4122 31.8182 24.9322 31.8037C23.4521 31.7893 22.2159 35.4979 22.1711 40.0871C22.1262 44.6764 23.2897 48.4085 24.7697 48.4229C26.2498 48.4374 27.486 44.7288 27.5308 40.1395Z"
+          fill="black"
+        ></path>
+        <path
+          class="ccustom"
+          d="M18.947 39.0972C21.4661 35.2608 22.5052 31.4922 21.268 30.6798C20.0307 29.8674 16.9856 32.3188 14.4666 36.1552C11.9475 39.9916 10.9084 43.7601 12.1456 44.5726C13.3829 45.385 16.4279 42.9336 18.947 39.0972Z"
+          fill="black"
+        ></path>
+        <path
+          class="ccustom"
+          d="M12.2792 33.593C16.4726 31.7278 19.3843 29.1194 18.7827 27.767C18.1812 26.4146 14.2942 26.8304 10.1008 28.6957C5.90744 30.5609 2.99571 33.1693 3.59726 34.5217C4.1988 35.8741 8.08584 35.4583 12.2792 33.593Z"
+          fill="black"
+        ></path>
+        <path
+          class="ccustom"
+          d="M18.2794 23.9745C18.5046 22.5116 15.0099 20.7597 10.4739 20.0615C5.93778 19.3633 2.07804 19.9833 1.85288 21.4462C1.62772 22.9091 5.1224 24.6609 9.65848 25.3591C14.1945 26.0573 18.0543 25.4373 18.2794 23.9745Z"
+          fill="black"
+        ></path>
+        <path
+          class="ccustom"
+          d="M19.908 20.4895C20.8882 19.3805 18.895 16.0176 15.4561 12.9783C12.0172 9.93902 8.43482 8.37426 7.45464 9.48332C6.47446 10.5924 8.46766 13.9553 11.9066 16.9946C15.3455 20.0339 18.9279 21.5986 19.908 20.4895Z"
+          fill="black"
+        ></path>
+        <path
+          class="ccustom"
+          d="M23.1514 18.4528C24.5756 18.0498 24.7171 14.1431 23.4675 9.72704C22.2179 5.31095 20.0503 2.05771 18.6261 2.46072C17.2019 2.86373 17.0604 6.77037 18.31 11.1865C19.5596 15.6025 21.7272 18.8558 23.1514 18.4528Z"
+          fill="black"
+        ></path>
+        <path
+          class="ccustom"
+          d="M31.9584 11.3239C33.2949 6.9333 33.2305 3.02462 31.8145 2.59361C30.3985 2.16259 28.1672 5.37245 26.8307 9.76304C25.4943 14.1536 25.5587 18.0623 26.9747 18.4933C28.3907 18.9243 30.622 15.7145 31.9584 11.3239Z"
+          fill="black"
+        ></path>
+        <path
+          class="ccustom"
+          d="M38.2514 17.2565C41.7491 14.285 43.8077 10.9617 42.8493 9.83373C41.891 8.70573 38.2787 10.2002 34.7811 13.1716C31.2834 16.1431 29.2249 19.4664 30.1832 20.5944C31.1415 21.7224 34.7538 20.228 38.2514 17.2565Z"
+          fill="black"
+        ></path>
+        <path
+          class="ccustom"
+          d="M40.3322 25.6519C44.8812 25.0433 48.4097 23.3607 48.2134 21.8936C48.0172 20.4266 44.1704 19.7307 39.6214 20.3392C35.0725 20.9478 31.5439 22.6304 31.7402 24.0975C31.9365 25.5645 35.7832 26.2605 40.3322 25.6519Z"
+          fill="black"
+        ></path>
+        <path
+          class="ccustom"
+          d="M46.2004 34.941C46.8285 33.6008 43.9688 30.9355 39.813 28.9879C35.6573 27.0403 31.7792 26.548 31.1511 27.8882C30.523 29.2285 33.3827 31.8938 37.5385 33.8414C41.6942 35.7889 45.5723 36.2813 46.2004 34.941Z"
+          fill="black"
+        ></path>
+        <path
+          class="ccustom"
+          d="M37.4589 44.8299C38.7119 44.0421 37.7473 40.2537 35.3044 36.3684C32.8615 32.4831 29.8653 29.9722 28.6123 30.76C27.3593 31.5478 28.3239 35.3362 30.7668 39.2215C33.2097 43.1068 36.2059 45.6178 37.4589 44.8299Z"
+          fill="black"
+        ></path>
+      </svg>
+
+      <nav
+        class="navbar bg-dark border-bottom border-body"
+        data-bs-theme="dark"
+      >
+        <a href="index.html" class="color-me">Home</a>
+        <a href="products.html" class="color-me">products</a>
+        <a href="checkout.html" class="color-me">Checkout</a>
+        <a href="registrartion.html" class="color-me">Registration</a>
+        <a href="login.html" class="color-me">Login</a>
+      </nav>
+    </header>
+
+    <main>
+      <div id="containerImages" class="container">
+        <div class="card container-md-6" style="width: 400px" id="cardimage">
+          <img
+            class="card-img-top"
+            src="https://www.lulus.com/images/product/xlarge/8354401_1717296.jpg?w=560"
+            alt="Card image"
+          />
+          <div class="card-body">
+            <h4 class="card-title">Sygole Black Platform Ankle Wrap High Heel Sandals</h4>
+            <p class="card-text">
+              You'll be walking on air when you're wearing the Lulus Sygole Black Platform Ankle Wrap High Heel Sandals! Smooth faux leather shapes a 1" platform sole, slender toe and vamp straps, and wrapped block heel. Long ties sprout from the vamp to cross behind the heel, wrap around the ankle, and secure with a gold buckle.
+              Perfect for dressing up or down!
+            </p>
+            <h5 class="price-color">Price $100</h5>
+
+            <p>
+              Product rating:
+              <meter class="average-rating" min="0" max="5" value="4.3">
+                4.3 out of 5
+              </meter>
+            </p>
+
+            <a href="checkout.html" class="btn btn-primary">Order Now</a>
+          </div>
+        </div>
+
+        <div class="card container-md-6" style="width: 400px" id="cardimage">
+          <img
+            class="card-img-top"
+            src="https://www.lulus.com/images/product/xlarge/10387881_2146616.jpg?w=560"
+            alt="Card image"
+          />
+          <div class="card-body">
+            <h4 class="card-title">
+              Cesilie White Ankle Strap Platform Espadrille Wedges
+            </h4>
+            <p class="card-text">
+              Your sunny vacay plans won't be complete without the Lulus Cesilie White Ankle Strap Platform Espadrille Wedges! Soft faux leather shapes a wide vamp strap and a matching ankle strap that rises from the arch and secures with a silver buckle, all atop a 1.75" toe platform. A trendy espadrille-wrapped wedge heel completes the summery look!
+            </p>
+            <h5 class="price-color">Price $105</h5>
+
+            <p>
+              Product rating:
+              <meter class="average-rating" min="0" max="5" value="4.3">
+                4.3 out of 5
+              </meter>
+            </p>
+
+            <a href="checkout.html" class="btn btn-primary">Order Now</a>
+          </div>
+        </div>
+
+        <div class="card container-md-6" style="width: 400px" id="cardimage">
+          <img
+            class="card-img-top"
+            src="https://www.lulus.com/images/product/xlarge/8214221_1657836.jpg?w=560"
+            alt="Card image"
+          />
+          <div class="card-body">
+            <h4 class="card-title">Luxxa White Strappy Wedge Sandals</h4>
+            <p class="card-text">
+              Got some glam plans? You won't be fully dressed until you've got Lulus Luxxa White Strappy Wedge Sandals on your feet! These faux leather sandals have a flat square-toe footbed, a slender toe strap, and matching crisscrossing vamp straps that sit below the adjustable ankle strap. Lightly curved wedge heel finishes the look!
+            </p>
+            <h5 class="price-color">Price $110</h5>
+
+            <p>
+              Product rating:
+              <meter class="average-rating" min="0" max="5" value="4.3">
+                4.3 out of 5
+              </meter>
+            </p>
+
+            <a href="checkout.html" class="btn btn-primary">Order Now</a>
+          </div>
+        </div>
+
+        <div class="card container-md-6" style="width: 400px" id="cardimage">
+          <img
+            class="card-img-top"
+            src="https://www.lulus.com/images/product/xlarge/10406561_372212.jpg?w=560"
+            alt="Card image"
+          />
+          <div class="card-body">
+            <h4 class="card-title">Laura Light Nude Suede Ankle Strap Heels</h4>
+            <p class="card-text">
+              Everyone loves the Lulus Laura Light Nude Suede Ankle Strap Heels with their trendy faux suede design, almond toe upper, and Lightly curved wedge heel finishes the look adjustable ankle strap with gold buckle!Smooth faux leather shapes a single toe strap Block heel is trimmed in shiny gold Lightly curved wedge heel finishes the look.
+            </p>
+            <h5 class="price-color">Price $100</h5>
+
+            <p>
+              Product rating:
+              <meter class="average-rating" min="0" max="5" value="4.3">
+                4.3 out of 5
+              </meter>
+            </p>
+
+            <a href="checkout.html" class="btn btn-primary">Order Now</a>
+          </div>
+        </div>
+
+        <div class="card container-md-6" style="width: 400px" id="cardimage">
+          <img
+            class="card-img-top"
+            src="https://www.lulus.com/images/product/xlarge/9862861_2031556.jpg?w=560"
+            alt="Card image"
+          />
+          <div class="card-body">
+            <h4 class="card-title">Arylee Rose Gold Ankle Strap Heels</h4>
+            <p class="card-text">
+              You're certain to step up your style essentials when you add the Lulus Arylee Rose Gold Ankle Strap Heels to your closet! Smooth faux leather shapes a single toe strap, almond-shaped toe bed, and wrapped block heel. A dainty ankle strap rises from the sturdy heel cup and secures with a gold buckle Lightly curved wedge heel finishes the look.
+            </p>
+            <h5 class="price-color">Price $120</h5>
+
+            <p>
+              Product rating:
+              <meter class="average-rating-1" min="0" max="5" value="5">
+                5 out of 5
+              </meter>
+            </p>
+
+            <a href="checkout.html" class="btn btn-primary">Order Now</a>
+          </div>
+        </div>
+
+        <div class="card container-md-6" style="width: 400px" id="cardimage">
+          <img
+            class="card-img-top"
+            src="https://www.lulus.com/images/product/xlarge/9699561_1926796.jpg?w=560"
+            alt="Card image"
+          />
+          <div class="card-body">
+            <h4 class="card-title">Jenlove White Pointed-Toe Pumps</h4>
+            <p class="card-text">
+              Excitement will be calling your name when you step out for the day in the Lulus Jenlove White Pointed-Toe Pumps! Smooth faux leather shapes a pointed-toe upper and a partial d'Orsay silhouette which secures around the ankle with a unique, asymmetrical strap that begins at the vamp, and finishes with a covered buckle. Classic stiletto heel.
+            </p>
+            <h5 class="price-color">Price $80</h5>
+
+            <p>
+              Product rating:
+              <meter class="average-rating" min="0" max="5" value="4.3">
+                4.3 out of 5
+              </meter>
+            </p>
+
+            <a href="checkout.html" class="btn btn-primary">Order Now</a>
+          </div>
+        </div>
+
+
+       
+
+        <div class="card container-md-6" style="width: 400px" id="cardimage">
+          <img
+            class="card-img-top"
+            src="https://www.lulus.com/images/product/xlarge/4271570_876202.jpg?w=560"
+            alt="Card image"
+          />
+
+
+
+          <div class="card-body">
+            <h4 class="card-title">Babie Light Nude Strappy High Heel Sandals</h4>
+            <p class="card-text">
+              Liven up any look with the Lulus Babie Light Nude Strappy High Heel Sandals! These stunning shoes have a sleek, single sole silhouette (shaped by smooth vegan leather) that plays host to a thin elastic toe strap, vamp strap, and slingback strap for a trendy, barely-there look.
+            </p>
+            <h5 class="price-color">Price $90</h5>
+
+            <p>
+              Product rating:
+              <meter class="average-rating-1" min="0" max="5" value="5">
+                5 out of 5
+              </meter>
+            </p>
+
+            <a href="checkout.html" class="btn btn-primary">Order Now</a>
+          </div>
+        </div>
+        <div class="card container-md-6" style="width: 400px" id="cardimage">
+          <img
+            class="card-img-top"
+            src="https://www.lulus.com/images/product/xlarge/6430161_1385716.jpg?w=560"
+            alt="Card image"
+          />
+
+
+
+
+          <div class="card-body">
+            <h4 class="card-title">Taylor Ivory Satin Ankle Strap Heels</h4>
+            <p class="card-text">
+              No one does it quite like the Lulus Taylor Ivory Satin Ankle Strap Heels! Whether you choose to dress them up or down, these sleek, satin single sole heels will stun with their slender toe strap, Lightly curved wedge heel finishes the look and adjustable ankle strap (with a gold buckle).
+            </p>
+            <h5 class="price-color">Price $100</h5>
+
+            <p>
+              Product rating:
+              <meter class="average-rating-1" min="0" max="5" value="5">
+                5 out of 5
+              </meter>
+            </p>
+
+            <a href="checkout.html" class="btn btn-primary">Order Now</a>
+          </div>
+        </div>
+        <div class="card container-md-6" style="width: 400px" id="cardimage">
+          <img
+            class="card-img-top"
+            src="https://www.lulus.com/images/product/xlarge/4284990_409672.jpg?w=560"
+            alt="Card image"
+          />
+
+
+
+
+
+          <div class="card-body">
+            <h4 class="card-title">Taylor Blush Suede Ankle Strap Heels</h4>
+            <p class="card-text">
+              No one does it quite like the Lulus Taylor Blush Suede Ankle Strap Heels! Whether you choose to dress them up or down, these vegan suede, Lightly curved wedge heel finishes the look single sole heels will stun with their slender toe strap, and adjustable ankle strap (with gold buckle).
+            </p>
+            <h5 class="price-color">Price $170</h5>
+
+            <p>
+              Product rating:
+              <meter class="average-rating-1" min="0" max="5" value="5">
+                5 out of 5
+              </meter>
+            </p>
+
+            <a href="checkout.html" class="btn btn-primary">Order Now</a>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="bg-dark text-white p-3">
+      <p>&copy Created by Pooja</p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium
+        debitis sed, omnis adipisci, ea quos libero est dolor quae error
+        repudiandae eum nostrum architecto. Adipisci.
+      </p>
+      <p>Terms/Service</p>
+    </footer>
+
+    <!-- Bootstrap JavaScript Libraries -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

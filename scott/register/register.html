@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Luxe Linen - Sign Up</title>
+    <link rel="stylesheet" href="../css/bootstrap.css" />
+    <link rel="stylesheet" href="../register/register.css">
+  </head>
+  <body class="d-flex flex-column min-vh-100">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container px-4 px-lg-5">
+        <a class="navbar-brand" href=".././index.html"><img src="../images/Alpaca.png" alt="" width="26"></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href=".././index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                id="navbarDropdown"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+                href="#">Shop</a
+              >
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <a class="dropdown-item" href="../product/product.html">All Products</a>
+                </li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#!">New Arrivals</a>
+                </li>
+                <li><a class="dropdown-item" href="#!">Popular</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex me-1" action="../login/login.html">
+            <button class="btn btn-outline-dark" type="submit">
+              <i class="bi-fill me-1"></i>
+              Login
+              <span class="badge bg-dark text-white ms-1 rounded-pill"
+                ></span>
+            </button>
+          </form>
+          <form class="d-flex me-1" action="register.html">
+            <button class="btn btn-outline-dark" type="submit">
+              <i class="bi-fill me-1"></i>
+              Sign Up
+              <span class="badge bg-dark text-white ms-1 rounded-pill"
+                ></span>
+            </button>
+          </form>
+          <form class="d-flex me-1" action="../checkout/checkout.html">
+            <button class="btn btn-outline-dark" type="submit">
+              <i class="bi-cart-fill me-1"></i>
+              Cart
+              <span class="badge bg-dark text-white ms-1 rounded-pill"
+                >9</span>
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- Header-->
+    <header class="bg-dark py-4">
+      <div class="container px-4 px-lg- my-1">
+        <div class="text-center text-white">
+          <h1 class="display-4 fw-bolder">Luxe Linen</h1>
+          <p class="lead fw-normal text-white-50 mb-0">
+            Comfort Aesthetic Luxury
+          </p>
+        </div>
+      </div>
+    </header>
+    <section class="py-5">
+      <div class="container px-4 px-lg-5 mt-2">
+        <h5 class="text-center">Sign Up Below</h5>
+    <div class="card" style="width: 50%; margin: 0 auto; padding: 20px">
+      <form class="row g-3">
+        <div class="col-md-6">
+          <label for="inputFirstName4" class="form-label">First Name</label>
+          <input type="name" class="form-control" id="fnputFirstName4" placeholder="Ex: John" />
+        </div>
+        <div class="col-md-6">
+          <label for="inputLastName4" class="form-label">Last Name</label>
+          <input type="name" class="form-control" id="inputLastName4" placeholder="Ex: Doe"/>
+        </div>
+        <form class="row g-3">
+          <div class="col-md-12">
+            <label for="inputEmail4" class="form-label">Email</label>
+            <input type="email" class="form-control" id="inputEmail4" placeholder="Ex: MyEmail@Email.com">
+          </div>
+          <div class="col-md-12">
+            <label for="inputPassword4" class="form-label">Password</label>
+            <input type="password" class="form-control" id="inputPassword4" placeholder="********">
+          </div>
+          <div class="col-md-12">
+            <label for="inputPassword4" class="form-label">Re-Enter Password</label>
+            <input type="password" class="form-control" id="inputPassword4" placeholder="********">
+          </div>
+        <div class="col-12">
+          <label for="inputAddress2" class="form-label">Address</label>
+          <input
+            type="text"
+            class="form-control"
+            id="inputAddress2"
+            placeholder="Street, Apartment, Studio, or Floor"
+          />
+        </div>
+        <form class="row g-3">
+        <div class="col-md-6">
+          <label for="inputCity" class="form-label">City</label>
+          <input type="text" class="form-control" id="inputCity" placeholder="Hamster Village" />
+        </div>
+        <div class="col-md-4">
+          <label for="inputState" class="form-label">State</label>
+          <select id="inputState" class="form-select">
+            <option selected>Choose...</option>
+            <option>New York</option>
+            <option>New Jersey</option>
+            <option>North Carolina</option>
+            <option>Atlanta</option>
+            <option>Florida</option>
+          </select>
+        </div>
+        <div class="col-md-2">
+          <label for="inputZip" class="form-label">Zip</label>
+          <input type="text" class="form-control" id="inputZip" placeholder="101101" />
+        </div>
+        <div class="col-12">
+          <h5>How did you hear about us?</h5>
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="radio"
+              name="gridRadios"
+              id="gridRadios1"
+              value="option1"
+              checked
+            />
+            <label class="form-check-label" for="gridRadios1">
+              Pinterest
+            </label>
+          </div>
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="radio"
+              name="gridRadios"
+              id="gridRadios1"
+              value="option1"
+              checked
+            />
+            <label class="form-check-label" for="gridRadios1"> Facebook </label>
+          </div>
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="radio"
+              name="gridRadios"
+              id="gridRadios1"
+              value="option1"
+              checked
+            />
+            <label class="form-check-label" for="gridRadios1">
+              Blog or publication
+            </label>
+          </div>
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="radio"
+              name="gridRadios"
+              id="gridRadios1"
+              value="option1"
+              checked
+            />
+            <label class="form-check-label" for="gridRadios1">
+              Search engine (Google, Yahoo, Etc.)
+            </label>
+          </div>
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="radio"
+              name="gridRadios"
+              id="gridRadios1"
+              value="option1"
+              checked
+            />
+            <label class="form-check-label" for="gridRadios1">
+              Recommended by family or friend
+            </label>
+          </div>
+        </div>
+        <div class="col-12">
+          <button type="submit" class="btn btn-primary">Sign Up</button>
+        </div>
+      </form>
+    </div>
+    </div>
+  </section>
+  <footer class="py-5 bg-dark">
+    <div class="container">
+      <p class="m-0 text-center text-white">
+        Copyright © LuxeLinen 2023
+      </p>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Core theme JS-->
+  <script src="js/scripts.js"></script>
+  </body>
+</html>

@@ -1,0 +1,20 @@
+body {
+
+border-radius: 50px;
+background: linear-gradient(145deg, #ddddd4, #fffffb);
+box-shadow:  20px 20px 60px #d0d0c8,
+             -20px -20px 60px #ffffff;
+            }
+              .card {
+                width: 18rem;
+                margin-right: 20px; /* Spacing between cards */
+                margin-top: 20px;
+              }
+              a {
+                text-decoration: none;
+              }
+              a:hover {
+                text-decoration: underline;
+                font-weight: bolder;
+              }
+            

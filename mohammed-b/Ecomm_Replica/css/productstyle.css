@@ -1,0 +1,68 @@
+/* Product Page Navigation Menu CSS */
+
+/* Reset default margin and padding */
+body, ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* Style the navigation container */
+.nav-container {
+  background-color: #333; /* Dark background color */
+  padding: 10px 20px; /* Padding around the navigation */
+}
+
+/* Style the navigation list */
+.nav-list {
+  list-style-type: none; /* Remove bullet points */
+  margin: 0;
+  padding: 0;
+}
+
+/* Style the navigation items */
+.nav-item {
+  display: inline; /* Display items horizontally */
+  margin-right: 20px; /* Space between items */
+}
+
+/* Remove right margin for the last item */
+.nav-item:last-child {
+  margin-right: 0;
+}
+
+/* Style the navigation links */
+.nav-link {
+  color: #fff; /* Text color */
+  text-decoration: none; /* Remove underlines */
+  font-weight: bold; /* Bold text */
+}
+
+/* Hover effect for navigation links */
+.nav-link:hover {
+  color: #ffcc00; /* Yellow color on hover */
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+

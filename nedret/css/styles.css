@@ -1,0 +1,188 @@
+* {
+  font-family: sans-serif;
+}
+
+body, .bg-card {
+  background-color: white;
+}
+
+.navbar-bg, .btn-bg {
+  background-color: #0046be !important;
+}
+
+.navbar-link {
+  color: white;
+  text-decoration: none;
+}
+
+.login-space {
+  margin-top: 6rem;
+}
+
+.reg-space {
+  margin-top: 3rem;
+}
+
+.btn.navbar-bg {
+  color: white;
+  text-align: center;
+}
+
+.google-border {
+  border: 0.1px solid black !important;
+}
+
+.search-bar {
+  border: 1px solid yellow;
+  
+}
+
+.product-space {
+  margin-top: 8rem;
+  border: 1px solid lightgray;
+  border-radius: 1rem;
+}
+
+.product-list {
+  font-weight: 200;
+  padding-left: 0;
+}
+
+.btn-color{
+  background-color: #ffe000;
+}
+
+.bg-white {
+  background-color: white;
+}
+
+.star {
+  color: rgb(239, 179, 14);
+}
+
+.color-h>h6,.color-h>h3, .color-h>p{
+  color: white;
+}
+
+.color-h>h2 {
+  color: #fff200;
+}
+.p-size>p {
+  font-size: .7rem;
+  color: white;
+}
+
+.bg-btn{
+  background-color:  #ffe000;
+}
+
+.bold-t>h6 {
+  font-weight: bold;
+}
+
+.bold-bg {
+  background-color: red;
+  color: white;
+}
+
+.footer-style ul, .footer-style a{
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.footer-style a:hover {
+  text-decoration: underline;
+}
+.footer-style-last p{
+  font-weight: 200;
+  font-family: sans-serif;
+  
+}
+
+footer a {
+  color: #0046be;
+  font-family: sans-serif !important;
+}
+
+.deals img {
+  border: none;
+}
+
+.align-row {
+  text-align: center;
+}
+
+.spn-box {
+  background-color:  #0046be; 
+  color: white;
+}
+
+.product-p {
+  font-size: 12px; font-weight: bold;
+}
+
+.product-p span {
+  font-weight: 200;
+}
+
+.price-c h2{
+  font-weight: bold;
+}
+
+.price-c h2{
+  text-align:start
+}
+
+.price-c a{
+  font-size: 12px;
+}
+.price-c p{
+  font-size: 12px;
+}
+
+.star {
+  color: #ffe000;
+}
+ 
+.btn-c {
+  color: black;
+  font-weight: bold;
+}
+
+.btn-c:hover{
+  background-color: #fff200;
+}
+
+.li-color a{
+  color: #0046be;
+  font-size: 15px;
+  font-weight: lighter;
+  text-decoration: none;
+}
+
+.adds a{
+  font-size: 15px;
+  font-weight: 200;
+
+}
+.adds, .adds>col {
+  background-color: #f1f8ff;
+  text-align: center;
+  padding: 10px;
+}
+.bold-c{
+  font-weight: bold;
+}
+
+.btn-new {
+  background-color: black;
+  color: white;
+
+}
+
+.btn-new:hover{
+  background-color: black;
+  color: white;
+}
+

@@ -1,0 +1,80 @@
+footer {
+    margin-top: 5rem;
+    background-color: lightgrey;
+    color:white;
+    padding-block:4rem ;
+    padding-left: 4rem;
+    
+   
+  }
+
+
+ 
+    
+    
+  body {
+    background-color: lightblue;
+ 
+
+
+  }
+      
+   
+
+
+
+  
+
+  main{
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+
+  }
+
+  nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+
+  }
+
+  .navbar a:hover{
+    background-color: white;
+
+
+
+
+  }
+
+  .navbar ul{
+    list-style-type: none;
+    background-color: rgb(201, 197, 197) ;
+    padding: 0px;
+    margin: 0px;
+
+
+
+  }
+
+  .navbar a{ 
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display:block ;
+    text-align: center;
+
+
+  }
+
+  .navbar li{
+    float: left;
+    
+    
+    }
+
+   

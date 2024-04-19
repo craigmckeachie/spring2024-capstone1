@@ -1,0 +1,46 @@
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+header a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+body{
+  background-color: whitesmoke
+}
+
+main {
+  padding: 20px;
+}
+
+.product {
+  margin-bottom: 20px;
+}
+
+.product img {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 10px;
+}
+
+footer {
+  background-color: blanchedalmond;
+  color: #321719;
+  padding: 20px;
+  text-align: center;
+}
+
+#contact-info,
+#social-media,
+#about-us {
+  margin-bottom: 20px;
+}
+.leftlinks a {
+    margin-right: 15px;
+}

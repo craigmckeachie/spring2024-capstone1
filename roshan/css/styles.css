@@ -1,0 +1,29 @@
+.login-space {
+  margin-top: 5rem;
+}
+.photo {
+  display: block;
+  margin-left: 30rem;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+}
+
+header {
+  background-color: lightyellow;
+}
+h3 {
+  text-align: center;
+  padding: 2rem;
+}
+footer {
+  background-color: lightcoral;
+  padding-left: 15rem;
+}
+.pgh {
+  font-size: large;
+  padding: 1rem;
+}
+.ll {
+  font-size: large;
+  padding: 1rem;
+}

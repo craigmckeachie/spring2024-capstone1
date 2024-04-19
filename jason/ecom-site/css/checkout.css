@@ -1,0 +1,30 @@
+body{
+  font-family: sans-serif;
+}
+* {
+  box-sizing: border-box;
+}
+.div1{
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  }
+  h3{
+    text-decoration: underline;
+  }
+ .btn{
+  margin-bottom: 2rem;
+  background-color: #4a8ac7;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+
+ }
+ .btn:hover {
+  opacity: 1;
+  background-color: #4a8ac7
+ }
+ 

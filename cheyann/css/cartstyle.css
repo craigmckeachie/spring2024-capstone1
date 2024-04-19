@@ -1,0 +1,16 @@
+.card {
+    width: 18rem;
+    margin-bottom: 20px;
+    margin-right: 36rem;
+    margin-left: 36rem;
+    border-radius: 50px;
+background: #f5f5eb;
+box-shadow:  20px 20px 60px #d0d0c8,
+             -20px -20px 60px #ffffff;
+  }
+  main{
+    border-radius: 50px;
+background: #f5f5eb;
+box-shadow:  20px 20px 60px #d0d0c8,
+             -20px -20px 60px #ffffff;
+  }

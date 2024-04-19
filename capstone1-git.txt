@@ -1,0 +1,28 @@
+
+
+
+git clone https://github.com/Erick435/YearUp-Learn-To-Code erik
+git clone https://github.com/Sounketa/Ecommerce julien
+git clone https://github.com/moalam7/Frontend_Amazon_Clone mohammed-a
+git clone https://github.com/nedretcelik/e-commerce-site nedret
+git clone https://github.com/Scotty-Cloud/luxelinen scott
+git clone https://github.com/D00KZ/E-CommerceWebsite christopher
+git clone https://github.com/Nberh1/Zoom.git nathaniel
+git clone https://github.com/GhoniyaPooja/ecommerce pooja
+git clone https://github.com/KhalGs/ecommerce khaleel
+git clone https://github.com/cheyannb/stationery-store cheyann	
+git clone https://github.com/Jab211/ecom-site.git jason
+git clone https://github.com/mbennis1999/Ecomm mohammed-b
+git clone https://github.com/TiffanyDoris/e-commerce-site tiffany
+git clone https://github.com/CodeXand3rr/project-website jahir
+git clone https://github.com/RoshanGhale/DirtTemple roshan
+git clone https://github.com/m7exb/ecommercesite.git muneeb
+git clone https://github.com/adethapiper/ACCESSORIES-GAMING-WEBSITE.git adeyemi
+git clone https://github.com/Yusufn22/e-commerce yusuf
+git clone https://github.com/aaungdev/Ecommerce.git aung
+git clone https://github.com/Denden2536/Capstone-Project-V2.git denzel
+
+```sh
+$ find ./ -type d -name "*.git*" -print
+$ find ./ -type d -name "*.git*" | xargs rm -r
+```

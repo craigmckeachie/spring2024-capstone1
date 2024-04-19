@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>ByteBay</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="px-3 py-2 text-bg-dark border-bottom navbar-bg">
+        <div class="container">
+          <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+            <a href="/" class="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none">
+              <img src="./images/logoipsum-332.svg" alt="" />
+            </a>
+
+            <ul class="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small">
+              <li>
+                <a href="#" class="nav-link text-white">
+                  <svg class="bi d-block mx-auto mb-1" width="24" height="24"><use xlink:href="#table"></use></svg>
+                  Orders
+                </a>
+              </li>
+              <li>
+                <a href="#" class="nav-link text-white">
+                  <svg class="bi d-block mx-auto mb-1" width="24" height="24"><use xlink:href="#grid"></use></svg>
+                  Products
+                </a>
+              </li>
+              <li>
+                <a href="#" class="nav-link text-white">
+                  <svg class="bi d-block mx-auto mb-1" width="24" height="24">
+                    <use xlink:href="#people-circle"></use>
+                  </svg>
+                  Account
+                </a>
+              </li>
+              <li>
+                <a href="./cart.html" class="nav-link text-white">
+                  <svg class="bi d-block mx-auto mb-1" width="24" height="24">
+                    <use xlink:href="#people-circle"></use>
+                  </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="25"
+                    height="25"
+                    fill="currentColor"
+                    class="bi bi-cart3"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l.84 4.479 9.144-.459L13.89 4zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"
+                    />
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="px-3 py-2 border-bottom mb-3">
+        <div class="container d-flex flex-wrap justify-content-center">
+          <form class="col-12 col-lg-auto mb-2 mb-lg-0 me-lg-auto" role="search">
+            <input type="search" class="form-control" placeholder="Search..." aria-label="Search" />
+          </form>
+
+          <div class="text-end">
+            <a href="./login.html"><button type="button" class="btn btn-light text-dark me-2">Login</button></a>
+            <a href="./registration.html"><button type="button" class="btn btn-primary navbar-bg">Sign-up</button></a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="container mt-5 align-items-center">
+        <div class="row align-row">
+          <div class="col">
+            <div class="row">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="50"
+                height="50"
+                fill="currentColor"
+                class="bi bi-calendar-check mb-2"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M10.854 7.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7.5 9.793l2.646-2.647a.5.5 0 0 1 .708 0"
+                />
+                <path
+                  d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5M1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4z"
+                />
+              </svg>
+            </div>
+            <div class="row">
+              <h5 class="fw-normal">Free next-day shipping</h5>
+            </div>
+            <div class="row">
+              <p>on thousands of items.</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="row">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="50"
+                height="50"
+                fill="currentColor"
+                class="bi bi-bag-heart-fill mb-3"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M11.5 4v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4zM8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1m0 6.993c1.664-1.711 5.825 1.283 0 5.132-5.825-3.85-1.664-6.843 0-5.132"
+                />
+              </svg>
+            </div>
+            <div class="row">
+              <h5 class="fw-normal">Ready in one hour</h5>
+            </div>
+            <div class="row">
+              <p>with Store or Curbside Pickup.</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="row">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="50"
+                height="50"
+                fill="currentColor"
+                class="bi bi-truck mb-2"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M0 3.5A1.5 1.5 0 0 1 1.5 2h9A1.5 1.5 0 0 1 12 3.5V5h1.02a1.5 1.5 0 0 1 1.17.563l1.481 1.85a1.5 1.5 0 0 1 .329.938V10.5a1.5 1.5 0 0 1-1.5 1.5H14a2 2 0 1 1-4 0H5a2 2 0 1 1-3.998-.085A1.5 1.5 0 0 1 0 10.5zm1.294 7.456A2 2 0 0 1 4.732 11h5.536a2 2 0 0 1 .732-.732V3.5a.5.5 0 0 0-.5-.5h-9a.5.5 0 0 0-.5.5v7a.5.5 0 0 0 .294.456M12 10a2 2 0 0 1 1.732 1h.768a.5.5 0 0 0 .5-.5V8.35a.5.5 0 0 0-.11-.312l-1.48-1.85A.5.5 0 0 0 13.02 6H12zm-9 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2m9 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2"
+                />
+              </svg>
+            </div>
+            <div class="row">
+              <h5>Same-day delivery.</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr />
+      <div class="container d-flex justify-content-between">
+        <h6>14 items</h6>
+        <div class="dropdown">
+            <a class="btn btn-light btn-sm dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Best Selling
+            </a>
+          
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Price Low to High</a></li>
+              <li><a class="dropdown-item" href="#">Price High to Low</a></li>
+              <li><a class="dropdown-item" href="#">Customer Rating</a></li>
+            </ul>
+          </div>
+      </div>
+      <div class="container align-items-center">
+        <hr>
+        <div class="row mt-4">
+            <div class="col">
+                <img src="./images/black-iphone.jpg" alt="" width="200">
+            </div>
+            <div class="col">
+                <div class="row">
+                    <h6><span class="spn-box"> &nbsp;&nbsp;&nbsp;Trade-in offer&nbsp;&nbsp;&nbsp; </span></h6>
+                    </div>
+                <div class="row">
+                    <a href="">Apple - iPhone 15 128GB - Black</a>
+                </div>
+                <div class="row mt-1">
+                   <p class="product-p">Model: <span>MTLV3LL/A</span> &nbsp; SKU: <span>6418070</span></p> 
+                </div>
+                <div class="row">
+                    <p class="product-p">Color: <span>Black</span></p>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        
+                        <img src="./images/white-iphone.jpg" alt="" class="img-thumbnail" width="50">
+                        <img src="./images/white-iphone.jpg" alt="" class="img-thumbnail" width="50">
+                        <img src="./images/white-iphone.jpg" alt="" class="img-thumbnail" width="50">
+                    </div>
+                </div>
+                <div class="row mt-3">
+                   <p class="product-p"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box2-heart" viewBox="0 0 16 16">
+                    <path d="M8 7.982C9.664 6.309 13.825 9.236 8 13 2.175 9.236 6.336 6.31 8 7.982"/>
+                    <path d="M3.75 0a1 1 0 0 0-.8.4L.1 4.2a.5.5 0 0 0-.1.3V15a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1V4.5a.5.5 0 0 0-.1-.3L13.05.4a1 1 0 0 0-.8-.4zm0 1H7.5v3h-6zM8.5 4V1h3.75l2.25 3zM15 5v10H1V5z"/>
+                  </svg> &nbsp; Pick up in 1 hour at <a href="">American Dream Mall</a> </p>
+                </div>
+                <div class="row mt-3">
+                    <p class="product-p"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-seam" viewBox="0 0 16 16">
+                        <path d="M8.186 1.113a.5.5 0 0 0-.372 0L1.846 3.5l2.404.961L10.404 2zm3.564 1.426L5.596 5 8 5.961 14.154 3.5zm3.25 1.7-6.5 2.6v7.922l6.5-2.6V4.24zM7.5 14.762V6.838L1 4.239v7.923zM7.443.184a1.5 1.5 0 0 1 1.114 0l7.129 2.852A.5.5 0 0 1 16 3.5v8.662a1 1 0 0 1-.629.928l-7.185 2.874a.5.5 0 0 1-.372 0L.63 13.09a1 1 0 0 1-.63-.928V3.5a.5.5 0 0 1 .314-.464z"/>
+                      </svg> &nbsp; Get it by tomorrow to <a href="">07110</a> </p>
+                 </div>
+            </div>
+            <div class="col price-c ">
+                <div class="row">
+                    <h2>$1200</h2>
+                </div>
+                <div class="row">
+                    <h4>$33.33/mo</h4>
+                    <p>for 36 months; 0% APR</p>
+                </div>
+                <div class="row">
+                    <a href="">3 free months of Apple TV+ & 3 more</a>
+                </div> 
+                <div class="row mt-5">
+                    <a class="btn btn-primary spn-box" href="product-item.html" role="button">See Details</a>
+                </div> 
+
+            </div>
+        </div>
+        <hr>
+        <div class="row mt-4">
+            <div class="col">
+                <img src="./images/blue-iphone.jpg" alt="" width="200">
+            </div>
+            <div class="col">
+                <div class="row">
+                    <h6><span class="spn-box"> &nbsp;&nbsp;&nbsp;Trade-in offer&nbsp;&nbsp;&nbsp; </span></h6>
+                    </div>
+                <div class="row">
+                    <a href="">Apple - iPhone 15 128GB - Black</a>
+                </div>
+                <div class="row mt-1">
+                   <p class="product-p">Model: <span>MTLV3LL/A</span> &nbsp; SKU: <span>6418070</span></p> 
+                </div>
+                <div class="row">
+                    <p class="product-p">Color: <span>Blue</span></p>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        
+                        <img src="./images/pink-iphone.jpg" alt="" class="img-thumbnail" width="50">
+                        <img src="./images/pink-iphone.jpg" alt="" class="img-thumbnail" width="50">
+                        <img src="./images/pink-iphone.jpg" alt="" class="img-thumbnail" width="50">
+                    </div>
+                </div>
+                <div class="row mt-3">
+                   <p class="product-p"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box2-heart" viewBox="0 0 16 16">
+                    <path d="M8 7.982C9.664 6.309 13.825 9.236 8 13 2.175 9.236 6.336 6.31 8 7.982"/>
+                    <path d="M3.75 0a1 1 0 0 0-.8.4L.1 4.2a.5.5 0 0 0-.1.3V15a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1V4.5a.5.5 0 0 0-.1-.3L13.05.4a1 1 0 0 0-.8-.4zm0 1H7.5v3h-6zM8.5 4V1h3.75l2.25 3zM15 5v10H1V5z"/>
+                  </svg> &nbsp; Pick up in 1 hour at <a href="">American Dream Mall</a> </p>
+                </div>
+                <div class="row mt-3">
+                    <p class="product-p"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-seam" viewBox="0 0 16 16">
+                        <path d="M8.186 1.113a.5.5 0 0 0-.372 0L1.846 3.5l2.404.961L10.404 2zm3.564 1.426L5.596 5 8 5.961 14.154 3.5zm3.25 1.7-6.5 2.6v7.922l6.5-2.6V4.24zM7.5 14.762V6.838L1 4.239v7.923zM7.443.184a1.5 1.5 0 0 1 1.114 0l7.129 2.852A.5.5 0 0 1 16 3.5v8.662a1 1 0 0 1-.629.928l-7.185 2.874a.5.5 0 0 1-.372 0L.63 13.09a1 1 0 0 1-.63-.928V3.5a.5.5 0 0 1 .314-.464z"/>
+                      </svg> &nbsp; Get it by tomorrow to <a href="">07110</a> </p>
+                 </div>
+            </div>
+            <div class="col price-c ">
+                <div class="row">
+                    <h2>$1200</h2>
+                </div>
+                <div class="row">
+                    <h4>$33.33/mo</h4>
+                    <p>for 36 months; 0% APR</p>
+                </div>
+                <div class="row">
+                    <a href="">3 free months of Apple TV+ & 3 more</a>
+                </div> 
+                <div class="row mt-5">
+                    <a class="btn btn-primary spn-box" href="product-item.html" role="button">See Details</a>
+                </div> 
+
+            </div>
+        </div>
+        <hr>
+        <div class="row mt-4">
+            <div class="col">
+                <img src="./images/white-iphone.jpg" alt="" width="200">
+            </div>
+            <div class="col">
+                <div class="row">
+                    <h6><span class="spn-box"> &nbsp;&nbsp;&nbsp;Trade-in offer&nbsp;&nbsp;&nbsp; </span></h6>
+                    </div>
+                <div class="row">
+                    <a href="">Apple - iPhone 15 128GB - Black</a>
+                </div>
+                <div class="row mt-1">
+                   <p class="product-p">Model: <span>MTLV3LL/A</span> &nbsp; SKU: <span>6418070</span></p> 
+                </div>
+                <div class="row">
+                    <p class="product-p">Color: <span>White</span></p>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        
+                        <img src="./images/black-iphone.jpg" alt="" class="img-thumbnail" width="50">
+                        <img src="./images/black-iphone.jpg" alt="" class="img-thumbnail" width="50">
+                        <img src="./images/black-iphone.jpg" alt="" class="img-thumbnail" width="50">
+                    </div>
+                </div>
+                <div class="row mt-3">
+                   <p class="product-p"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box2-heart" viewBox="0 0 16 16">
+                    <path d="M8 7.982C9.664 6.309 13.825 9.236 8 13 2.175 9.236 6.336 6.31 8 7.982"/>
+                    <path d="M3.75 0a1 1 0 0 0-.8.4L.1 4.2a.5.5 0 0 0-.1.3V15a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1V4.5a.5.5 0 0 0-.1-.3L13.05.4a1 1 0 0 0-.8-.4zm0 1H7.5v3h-6zM8.5 4V1h3.75l2.25 3zM15 5v10H1V5z"/>
+                  </svg> &nbsp; Pick up in 1 hour at <a href="">American Dream Mall</a> </p>
+                </div>
+                <div class="row mt-3">
+                    <p class="product-p"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-seam" viewBox="0 0 16 16">
+                        <path d="M8.186 1.113a.5.5 0 0 0-.372 0L1.846 3.5l2.404.961L10.404 2zm3.564 1.426L5.596 5 8 5.961 14.154 3.5zm3.25 1.7-6.5 2.6v7.922l6.5-2.6V4.24zM7.5 14.762V6.838L1 4.239v7.923zM7.443.184a1.5 1.5 0 0 1 1.114 0l7.129 2.852A.5.5 0 0 1 16 3.5v8.662a1 1 0 0 1-.629.928l-7.185 2.874a.5.5 0 0 1-.372 0L.63 13.09a1 1 0 0 1-.63-.928V3.5a.5.5 0 0 1 .314-.464z"/>
+                      </svg> &nbsp; Get it by tomorrow to <a href="">07110</a> </p>
+                 </div>
+            </div>
+            <div class="col price-c ">
+                <div class="row">
+                    <h2>$1200</h2>
+                </div>
+                <div class="row">
+                    <h4>$33.33/mo</h4>
+                    <p>for 36 months; 0% APR</p>
+                </div>
+                <div class="row">
+                    <a href="">3 free months of Apple TV+ & 3 more</a>
+                </div> 
+                <div class="row mt-5">
+                    <a class="btn btn-primary spn-box" href="product-item.html" role="button">See Details</a>
+                </div> 
+
+            </div>
+        </div>
+        <hr>
+        <div class="row mt-4">
+            <div class="col">
+                <img src="./images/black-iphone.jpg" alt="" width="200">
+            </div>
+            <div class="col">
+                <div class="row">
+                    <h6><span class="spn-box"> &nbsp;&nbsp;&nbsp;Trade-in offer&nbsp;&nbsp;&nbsp; </span></h6>
+                    </div>
+                <div class="row">
+                    <a href="">Apple - iPhone 15 128GB - Black</a>
+                </div>
+                <div class="row mt-1">
+                   <p class="product-p">Model: <span>MTLV3LL/A</span> &nbsp; SKU: <span>6418070</span></p> 
+                </div>
+                <div class="row">
+                    <p class="product-p">Color: <span>Black</span></p>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        
+                        <img src="./images/white-iphone.jpg" alt="" class="img-thumbnail" width="50">
+                        <img src="./images/white-iphone.jpg" alt="" class="img-thumbnail" width="50">
+                        <img src="./images/white-iphone.jpg" alt="" class="img-thumbnail" width="50">
+                    </div>
+                </div>
+                <div class="row mt-3">
+                   <p class="product-p"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box2-heart" viewBox="0 0 16 16">
+                    <path d="M8 7.982C9.664 6.309 13.825 9.236 8 13 2.175 9.236 6.336 6.31 8 7.982"/>
+                    <path d="M3.75 0a1 1 0 0 0-.8.4L.1 4.2a.5.5 0 0 0-.1.3V15a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1V4.5a.5.5 0 0 0-.1-.3L13.05.4a1 1 0 0 0-.8-.4zm0 1H7.5v3h-6zM8.5 4V1h3.75l2.25 3zM15 5v10H1V5z"/>
+                  </svg> &nbsp; Pick up in 1 hour at <a href="">American Dream Mall</a> </p>
+                </div>
+                <div class="row mt-3">
+                    <p class="product-p"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-seam" viewBox="0 0 16 16">
+                        <path d="M8.186 1.113a.5.5 0 0 0-.372 0L1.846 3.5l2.404.961L10.404 2zm3.564 1.426L5.596 5 8 5.961 14.154 3.5zm3.25 1.7-6.5 2.6v7.922l6.5-2.6V4.24zM7.5 14.762V6.838L1 4.239v7.923zM7.443.184a1.5 1.5 0 0 1 1.114 0l7.129 2.852A.5.5 0 0 1 16 3.5v8.662a1 1 0 0 1-.629.928l-7.185 2.874a.5.5 0 0 1-.372 0L.63 13.09a1 1 0 0 1-.63-.928V3.5a.5.5 0 0 1 .314-.464z"/>
+                      </svg> &nbsp; Get it by tomorrow to <a href="">07110</a> </p>
+                 </div>
+            </div>
+            <div class="col price-c ">
+                <div class="row">
+                    <h2>$1200</h2>
+                </div>
+                <div class="row">
+                    <h4>$33.33/mo</h4>
+                    <p>for 36 months; 0% APR</p>
+                </div>
+                <div class="row">
+                    <a href="">3 free months of Apple TV+ & 3 more</a>
+                </div> 
+                <div class="row mt-5">
+                    <a class="btn btn-primary spn-box" href="product-item.html" role="button">See Details</a>
+                </div> 
+
+            </div>
+        </div>
+        <hr>
+        <div class="row mt-4">
+            <div class="col">
+                <img src="./images/blue-iphone.jpg" alt="" width="200">
+            </div>
+            <div class="col">
+                <div class="row">
+                    <h6><span class="spn-box"> &nbsp;&nbsp;&nbsp;Trade-in offer&nbsp;&nbsp;&nbsp; </span></h6>
+                    </div>
+                <div class="row">
+                    <a href="">Apple - iPhone 15 128GB - Black</a>
+                </div>
+                <div class="row mt-1">
+                   <p class="product-p">Model: <span>MTLV3LL/A</span> &nbsp; SKU: <span>6418070</span></p> 
+                </div>
+                <div class="row">
+                    <p class="product-p">Color: <span>Blue</span></p>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        
+                        <img src="./images/pink-iphone.jpg" alt="" class="img-thumbnail" width="50">
+                        <img src="./images/pink-iphone.jpg" alt="" class="img-thumbnail" width="50">
+                        <img src="./images/pink-iphone.jpg" alt="" class="img-thumbnail" width="50">
+                    </div>
+                </div>
+                <div class="row mt-3">
+                   <p class="product-p"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box2-heart" viewBox="0 0 16 16">
+                    <path d="M8 7.982C9.664 6.309 13.825 9.236 8 13 2.175 9.236 6.336 6.31 8 7.982"/>
+                    <path d="M3.75 0a1 1 0 0 0-.8.4L.1 4.2a.5.5 0 0 0-.1.3V15a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1V4.5a.5.5 0 0 0-.1-.3L13.05.4a1 1 0 0 0-.8-.4zm0 1H7.5v3h-6zM8.5 4V1h3.75l2.25 3zM15 5v10H1V5z"/>
+                  </svg> &nbsp; Pick up in 1 hour at <a href="">American Dream Mall</a> </p>
+                </div>
+                <div class="row mt-3">
+                    <p class="product-p"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-seam" viewBox="0 0 16 16">
+                        <path d="M8.186 1.113a.5.5 0 0 0-.372 0L1.846 3.5l2.404.961L10.404 2zm3.564 1.426L5.596 5 8 5.961 14.154 3.5zm3.25 1.7-6.5 2.6v7.922l6.5-2.6V4.24zM7.5 14.762V6.838L1 4.239v7.923zM7.443.184a1.5 1.5 0 0 1 1.114 0l7.129 2.852A.5.5 0 0 1 16 3.5v8.662a1 1 0 0 1-.629.928l-7.185 2.874a.5.5 0 0 1-.372 0L.63 13.09a1 1 0 0 1-.63-.928V3.5a.5.5 0 0 1 .314-.464z"/>
+                      </svg> &nbsp; Get it by tomorrow to <a href="">07110</a> </p>
+                 </div>
+            </div>
+            <div class="col price-c ">
+                <div class="row">
+                    <h2>$1200</h2>
+                </div>
+                <div class="row">
+                    <h4>$33.33/mo</h4>
+                    <p>for 36 months; 0% APR</p>
+                </div>
+                <div class="row">
+                    <a href="">3 free months of Apple TV+ & 3 more</a>
+                </div> 
+                <div class="row mt-5">
+                    <a class="btn btn-primary spn-box" href="product-item.html" role="button">See Details</a>
+                </div> 
+
+            </div>
+        </div>
+        <hr>
+        <div class="row mt-4">
+            <div class="col">
+                <img src="./images/white-iphone.jpg" alt="" width="200">
+            </div>
+            <div class="col">
+                <div class="row">
+                    <h6><span class="spn-box"> &nbsp;&nbsp;&nbsp;Trade-in offer&nbsp;&nbsp;&nbsp; </span></h6>
+                    </div>
+                <div class="row">
+                    <a href="">Apple - iPhone 15 128GB - Black</a>
+                </div>
+                <div class="row mt-1">
+                   <p class="product-p">Model: <span>MTLV3LL/A</span> &nbsp; SKU: <span>6418070</span></p> 
+                </div>
+                <div class="row">
+                    <p class="product-p">Color: <span>White</span></p>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        
+                        <img src="./images/black-iphone.jpg" alt="" class="img-thumbnail" width="50">
+                        <img src="./images/black-iphone.jpg" alt="" class="img-thumbnail" width="50">
+                        <img src="./images/black-iphone.jpg" alt="" class="img-thumbnail" width="50">
+                    </div>
+                </div>
+                <div class="row mt-3">
+                   <p class="product-p"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box2-heart" viewBox="0 0 16 16">
+                    <path d="M8 7.982C9.664 6.309 13.825 9.236 8 13 2.175 9.236 6.336 6.31 8 7.982"/>
+                    <path d="M3.75 0a1 1 0 0 0-.8.4L.1 4.2a.5.5 0 0 0-.1.3V15a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1V4.5a.5.5 0 0 0-.1-.3L13.05.4a1 1 0 0 0-.8-.4zm0 1H7.5v3h-6zM8.5 4V1h3.75l2.25 3zM15 5v10H1V5z"/>
+                  </svg> &nbsp; Pick up in 1 hour at <a href="">American Dream Mall</a> </p>
+                </div>
+                <div class="row mt-3">
+                    <p class="product-p"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-seam" viewBox="0 0 16 16">
+                        <path d="M8.186 1.113a.5.5 0 0 0-.372 0L1.846 3.5l2.404.961L10.404 2zm3.564 1.426L5.596 5 8 5.961 14.154 3.5zm3.25 1.7-6.5 2.6v7.922l6.5-2.6V4.24zM7.5 14.762V6.838L1 4.239v7.923zM7.443.184a1.5 1.5 0 0 1 1.114 0l7.129 2.852A.5.5 0 0 1 16 3.5v8.662a1 1 0 0 1-.629.928l-7.185 2.874a.5.5 0 0 1-.372 0L.63 13.09a1 1 0 0 1-.63-.928V3.5a.5.5 0 0 1 .314-.464z"/>
+                      </svg> &nbsp; Get it by tomorrow to <a href="">07110</a> </p>
+                 </div>
+            </div>
+            <div class="col price-c ">
+                <div class="row">
+                    <h2>$1200</h2>
+                </div>
+                <div class="row">
+                    <h4>$33.33/mo</h4>
+                    <p>for 36 months; 0% APR</p>
+                </div>
+                <div class="row">
+                    <a href="">3 free months of Apple TV+ & 3 more</a>
+                </div> 
+                <div class="row mt-5">   
+                    <a class="btn btn-primary spn-box" href="product-item.html" role="button">See Details</a>
+                </div> 
+
+            </div>
+        </div>
+      </div>
+    </main>
+    <hr />
+    <footer class="container-fluid">
+      <div class="container-fluid">
+        <div class="row footer-style mb-3">
+          <div class="col">
+            <ul>
+              <li><h6>Order & Purchases</h6></li>
+              <li><a href="">Check Order Status</a></li>
+              <li><a href="">Shipping, Delivery & Pickup</a></li>
+              <li><a href="">Returns & Exchanges</a></li>
+              <li><a href="">Product Recalls</a></li>
+              <li><a href="">Trade-In Program</a></li>
+              <li><a href="">Gift Cards</a></li>
+            </ul>
+          </div>
+          <div class="col">
+            <ul>
+              <li><h6>Support & Services</h6></li>
+              <li><a href="">Visit our Support Center</a></li>
+              <li><a href="">Shipping, Delivery & Pickup</a></li>
+              <li><a href="">Shop with an Expert</a></li>
+              <li><a href="">Schedule a Service</a></li>
+              <li><a href="">Manage an Appointment</a></li>
+              <li><a href="">Contact Us</a></li>
+            </ul>
+          </div>
+          <div class="col">
+            <ul>
+              <li><h6>Partnerships</h6></li>
+              <li><a href="">Affiliate Program</a></li>
+              <li><a href="">Advertise with Us</a></li>
+              <li><a href="">Developers</a></li>
+              <li><a href="">ByteBay Health</a></li>
+              <li><a href="">ByteBay Education</a></li>
+              <li><a href="">ByteBay Business</a></li>
+            </ul>
+          </div>
+        </div>
+        <p>How was your experience? <a href="#">Give feedback about our website</a></p>
+        <hr />
+      </div>
+      <div class="container-fluid">
+        <div class="row footer-style mb-3">
+          <div class="col">
+            <ul>
+              <li><a href="">Accessibility</a></li>
+            </ul>
+          </div>
+          <div class="col">
+            <ul>
+              <li><a href="">Terms & Conditions</a></li>
+            </ul>
+          </div>
+          <div class="col">
+            <ul>
+              <li><a href="">Privacy</a></li>
+            </ul>
+          </div>
+          <div class="col">
+            <ul>
+              <li><a href=""> Interest-Based Ads</a></li>
+            </ul>
+          </div>
+          <div class="col">
+            <ul>
+              <li><a href="">State Privacy Rights</a></li>
+            </ul>
+          </div>
+          <div class="col">
+            <ul>
+              <li><a href=""></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="row footer-style-last">
+          <p>
+            In-store pricing may vary. Prices and offers are subject to change. © 2024 ByteBay. All rights reserved.
+            ByteBay, the ByteBay logo, the tag design, and MY BYTEBAY are trademarks of ByteBay and its affiliated
+            companies.
+          </p>
+        </div>
+      </div>
+    </footer>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

@@ -4,3 +4,6 @@
 - renamed home.html to index.html
 - all file names should be lowercased, changed one image file
 - removed <img src="logo.png" alt="logo" class="logo" /> on registration
+- very little time was spent on css and styling the site
+- bootstrap not used at all
+- in summary, great html, little effort on css and design

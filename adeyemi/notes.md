@@ -1,0 +1,6 @@
+- ran prettier on all files (needed formatting)
+- ran w3c html validator and fixed validation error (only one error (impressive) img alt attribute missing closing double quote)
+- renamed stylesheet to correct spelling error in name
+- renamed home.html to index.html
+- all file names should be lowercased, changed one image file
+- removed <img src="logo.png" alt="logo" class="logo" /> on registration

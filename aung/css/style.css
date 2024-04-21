@@ -10,7 +10,7 @@
 }
 
 .radio-p {
-  margin-left: 1.0rem;
+  margin-left: 1rem;
 }
 
 #homewatch1 {
@@ -31,7 +31,6 @@
 #heroimage {
   width: 300px;
   margin-left: 100px;
-
 }
 
 .nav-custom {
@@ -138,7 +137,7 @@ h1 {
   margin-bottom: -0.95rem;
 }
 
-.home-h3{
+.home-h3 {
   color: #a27a0d;
   font-weight: 600;
 }
@@ -262,7 +261,6 @@ span {
   border: 1px solid #f5ead8;
 }
 
-
 .navbar {
   padding: 3rem 2 rem;
   height: 0rem;
@@ -349,27 +347,26 @@ span {
 }
 
 .price-text {
-  font-size: 2.2rem; 
+  font-size: 2.2rem;
   font-weight: bold;
   color: #333;
-  margin-right: 10px; 
+  margin-right: 10px;
 }
 
 .add-to-cart-btn {
   padding: 0.5rem 1.5rem;
-  font-size: 1rem; 
-  letter-spacing: 0.05rem; 
+  font-size: 1rem;
+  letter-spacing: 0.05rem;
   background-color: #d4a00f;
   color: #fff;
-  transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease; 
+  transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .add-to-cart-btn:hover {
-  background-color: #ffc107; 
+  background-color: #ffc107;
   transform: translateY(-2px);
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
-
 
 .card {
   transition: box-shadow 0.3s ease;
@@ -387,7 +384,7 @@ form {
 }
 
 #userInfoContainer {
-  padding:1rem;
+  padding: 1rem;
 }
 
 .productCol {
@@ -398,10 +395,10 @@ form {
   box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.1);
   margin: 15px 10px;
 }
-.cartWidth{
+.cartWidth {
   width: 25px;
 }
-#cartImage{
+#cartImage {
   width: 150px;
   margin: 0.7rem;
 }
@@ -429,29 +426,28 @@ form {
   transition: all 0.3s ease;
 }
 .results-bar {
-  background: #fffbea; 
-  border: 1px solid #ffebb4; 
+  background: #fffbea;
+  border: 1px solid #ffebb4;
 }
 
 .results-count .badge {
-  background-color: #ffc107; 
-  font-size: 0.9em; 
+  background-color: #ffc107;
+  font-size: 0.9em;
   color: #333;
 }
 
 .sort-dropdown .btn {
-  color: #ffc107; 
-  border-color: #ffc107; 
+  color: #ffc107;
+  border-color: #ffc107;
 }
 
 .sort-dropdown .current-sort {
-  font-weight: bold; 
+  font-weight: bold;
 }
 
 .sort-dropdown .dropdown-menu {
-  right: 0; 
+  right: 0;
 }
-
 
 .btn-outline-yellow {
   color: #ffc107;
@@ -463,14 +459,13 @@ form {
   color: #212529;
 }
 
-
 .sort-dropdown .dropdown-item:hover {
   background-color: #fff3cd;
 }
 
 .bg-yellow {
-  background-color: #ffc107; 
-  color: #333; 
+  background-color: #ffc107;
+  color: #333;
 }
 
 /* General Reset */
@@ -496,7 +491,7 @@ form {
 }
 
 .cart-item-count {
-  color: #FFC107; 
+  color: #ffc107;
 }
 
 .cart-content {
@@ -526,30 +521,30 @@ form {
   width: 15rem;
   margin-left: 2rem;
   margin-bottom: -3rem;
-  align-items:center
+  align-items: center;
 }
 .cartProduct {
   width: 3rem;
   margin: 1rem 1rem;
 }
-.watch3{
+.watch3 {
   width: 14rem;
   margin-top: 1rem;
   margin-left: 2rem;
   margin-bottom: 0.7rem;
 }
-.watch4{
+.watch4 {
   width: 14rem;
   margin-top: 1rem;
   margin-left: 4rem;
   margin-bottom: 0.7rem;
 }
-.watch5{
+.watch5 {
   margin-top: 1rem;
   margin-left: 1.5rem;
   margin-bottom: 1rem;
 }
-.product-bg{
+.product-bg {
   background-color: #e0ded368;
 }
 
@@ -588,21 +583,21 @@ form {
 
 .remove-product {
   border: none;
-  background-color: #FF6B6B;
+  background-color: #ff6b6b;
   color: white;
   padding: 5px 10px;
   cursor: pointer;
 }
 
 .remove-product:hover {
-  background-color: #FF5252;
+  background-color: #ff5252;
 }
 
 .cart-summary {
   width: 300px;
   padding: 20px;
-  background: #F9F9F9;
-  border: 1px solid #E0E0E0;
+  background: #f9f9f9;
+  border: 1px solid #e0e0e0;
 }
 
 .coupon-section,
@@ -614,13 +609,13 @@ form {
   width: 100%;
   margin-bottom: 10px;
   padding: 10px;
-  border: 1px solid #E0E0E0;
+  border: 1px solid #e0e0e0;
 }
 
 .btn-apply {
   width: 100%;
   padding: 10px;
-  background-color: #FFC107; /* Yellow theme color */
+  background-color: #ffc107; /* Yellow theme color */
   color: white;
   border: none;
   cursor: pointer;
@@ -643,7 +638,7 @@ form {
 .btn-checkout {
   width: 100%;
   padding: 10px;
-  background-color: #FFC107; /* Yellow theme color */
+  background-color: #ffc107; /* Yellow theme color */
   color: white;
   border: none;
   cursor: pointer;
@@ -651,7 +646,7 @@ form {
 }
 
 .btn-checkout:hover {
-  background-color: #E0A800; /* Darker yellow on hover */
+  background-color: #e0a800; /* Darker yellow on hover */
 }
 
 .payment-methods {
@@ -662,10 +657,10 @@ form {
 .payment-icons {
   display: flex;
   justify-content: center;
-  gap: 20px; 
+  gap: 20px;
   margin-top: 10px;
 }
 
 .payment-icons i {
-  color: #333; 
+  color: #333;
 }

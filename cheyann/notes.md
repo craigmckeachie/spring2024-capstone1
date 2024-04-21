@@ -1,0 +1,3 @@
+- custom stylesheet needs to come after bootstrap stylesheet
+- DOCTYPE needs to be the first thing in an html document
+- index w3c invalid, extra closing divs, extra section

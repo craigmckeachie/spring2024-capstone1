@@ -1,4 +1,4 @@
-<!Doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <title>Products</title>
@@ -6,8 +6,9 @@
     <meta charset="utf-8" />
     <meta
       name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
-    <link rel="stylesheet" href="css/productstyle.css">
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
     <!-- Bootstrap CSS v5.2.1 -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
@@ -15,91 +16,167 @@
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/productstyle.css" />
   </head>
 
   <body>
-    <header class="container header-color">
-      <svg id="logo-89" width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg"><path class="ccustom" d="M39.9449 21.4998H32.8003C26.5594 21.4998 21.5003 26.559 21.5003 32.7998V39.9444C31.3502 39.214 39.2145 31.3497 39.9449 21.4998Z" fill="#775732"></path><path class="ccustom" d="M18.5003 39.9444V32.7998C18.5003 26.559 13.4411 21.4998 7.20026 21.4998H0.0556641C0.785998 31.3497 8.65036 39.214 18.5003 39.9444Z" fill="#775732"></path><path class="ccustom" d="M39.9449 18.4998C39.2145 8.64987 31.3502 0.78551 21.5003 0.0551758V7.19977C21.5003 13.4406 26.5594 18.4998 32.8003 18.4998H39.9449Z" fill="#775732"></path><path class="ccustom" d="M18.5003 0.0551758C8.65036 0.78551 0.785998 8.64987 0.0556641 18.4998H7.20026C13.4411 18.4998 18.5003 13.4406 18.5003 7.19977V0.0551758Z" fill="#775732"></path><path class="ccustom" d="M13.583 19.9998C16.3555 18.6145 18.615 16.355 20.0002 13.5825C21.3855 16.355 23.6449 18.6145 26.4175 19.9998C23.6449 21.385 21.3855 23.6445 20.0002 26.417C18.615 23.6445 16.3555 21.385 13.583 19.9998Z" fill="#CA9352"></path></svg>         
-      <h1> <a href="index.html">Seven Pens </a> </h1>
-      <nav class="navbar navbar-expand-lg bg-body-tertiary">
-          <div class="container-fluid">
-                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                <a class="nav-link" href="checkouttest.html">Checkout</a>
-                <a class="nav-link" href="products.html">Products</a>
-                <a class="nav-link" href="login.html">Login/Sign Up</a>
-                <a href="cart.html" target="_blank" rel="noopener noreferrer">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart3" viewBox="0 0 16 16">
-                      <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l.84 4.479 9.144-.459L13.89 4zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
-                  </svg>
-              </a>
-
-              </div>
+    <header
+      class="container navbar navbar-expand-lg navbar-text mb-5 header-color1 bg-body-tertiary1"
+    >
+      <div class="container-fluid">
+        <a class="nav-logo" aria-current="page" href="index.html">
+          <svg
+            id="logo-89"
+            width="40"
+            height="40"
+            viewBox="0 0 40 40"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              class="ccustom"
+              d="M39.9449 21.4998H32.8003C26.5594 21.4998 21.5003 26.559 21.5003 32.7998V39.9444C31.3502 39.214 39.2145 31.3497 39.9449 21.4998Z"
+              fill="#775732"
+            ></path>
+            <path
+              class="ccustom"
+              d="M18.5003 39.9444V32.7998C18.5003 26.559 13.4411 21.4998 7.20026 21.4998H0.0556641C0.785998 31.3497 8.65036 39.214 18.5003 39.9444Z"
+              fill="#775732"
+            ></path>
+            <path
+              class="ccustom"
+              d="M39.9449 18.4998C39.2145 8.64987 31.3502 0.78551 21.5003 0.0551758V7.19977C21.5003 13.4406 26.5594 18.4998 32.8003 18.4998H39.9449Z"
+              fill="#775732"
+            ></path>
+            <path
+              class="ccustom"
+              d="M18.5003 0.0551758C8.65036 0.78551 0.785998 8.64987 0.0556641 18.4998H7.20026C13.4411 18.4998 18.5003 13.4406 18.5003 7.19977V0.0551758Z"
+              fill="#775732"
+            ></path>
+            <path
+              class="ccustom"
+              d="M13.583 19.9998C16.3555 18.6145 18.615 16.355 20.0002 13.5825C21.3855 16.355 23.6449 18.6145 26.4175 19.9998C23.6449 21.385 21.3855 23.6445 20.0002 26.417C18.615 23.6445 16.3555 21.385 13.583 19.9998Z"
+              fill="#CA9352"
+            ></path>
+          </svg>
+        </a>
+        <nav class="nav">
+          <a class="nav-link" href="products.html">Products</a>
+          <a class="nav-link" href="login.html">Sign In</a>
+          <a class="nav-link" href="checkout.html">Checkout</a>
+          <a href="cart.html" target="_blank" rel="noopener noreferrer">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="20"
+              height="20"
+              fill="currentColor"
+              class="bi bi-cart3 mt-2"
+              viewBox="0 0 20 20"
+            >
+              <path
+                d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l.84 4.479 9.144-.459L13.89 4zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"
+              />
+            </svg>
+          </a>
+        </nav>
+      </div>
+    </header>
+    <main class="container">
+      <h4>Our Products</h4>
+      <section>
+        <div class="card-group">
+          <div class="card" style="width: 18rem">
+            <img
+              src="images/1.png"
+              class="card-img-top"
+              alt="spiral notebook and pens"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Product 1</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="checkout1.html" class="btn btn-primary">Add to Cart</a>
             </div>
           </div>
-        </nav>
-  </header>
-    <main> 
-      <h1> Our Products</h1>
-      <section>
-      <div class="card-group">
-      <div class="card" style="width: 18rem;">
-        <img src="images/1.png" class="card-img-top" alt="spiral notebook and pens">
-        <div class="card-body">
-          <h5 class="card-title">Product 1</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="checkout1.html" class="btn btn-primary">Add to Cart</a>
-        </div>
-      </div>
-      <div class="card" style="width: 18rem;">
-        <img src="images/2.png" class="card-img-top" alt="4 Colored Pens"> 
-        <div class="card-body">
-          <h5 class="card-title">Product 2</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="checkout2.html" class="btn btn-primary">Add to Cart</a>
-        </div>
-      </div>
-      <div class="card" style="width: 18rem;">
-        <img src="images/3.png" class="card-img-top" alt="Assorted Colored Pens">
-        <div class="card-body">
-          <h5 class="card-title">Product 3</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="checkout3.html" class="btn btn-primary">Add to Cart</a> 
+          <div class="card" style="width: 18rem">
+            <img src="images/2.png" class="card-img-top" alt="4 Colored Pens" />
+            <div class="card-body">
+              <h5 class="card-title">Product 2</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="checkout2.html" class="btn btn-primary">Add to Cart</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem">
+            <img
+              src="images/3.png"
+              class="card-img-top"
+              alt="Assorted Colored Pens"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Product 3</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="checkout3.html" class="btn btn-primary">Add to Cart</a>
+            </div>
+          </div>
         </div>
       </section>
-      </div>
+
       <div class="card-group">
-      <div class="card" style="width: 18rem;">
-        <img src="images/4.png" class="card-img-top" alt="Open Notebook">
-        <div class="card-body">
-          <h5 class="card-title">Product 4</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="checkout4.html" class="btn btn-primary">Add to Cart</a>
+        <div class="card" style="width: 18rem">
+          <img src="images/4.png" class="card-img-top" alt="Open Notebook" />
+          <div class="card-body">
+            <h5 class="card-title">Product 4</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a href="checkout4.html" class="btn btn-primary">Add to Cart</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem">
+          <img src="images/5.png" class="card-img-top" alt="Pink Notebook" />
+          <div class="card-body">
+            <h5 class="card-title">Product 5</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a href="checkout5.html" class="btn btn-primary">Add to Cart</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem">
+          <img
+            src="images/6.png"
+            class="card-img-top"
+            alt="Gray notebook and Pens"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Product 6</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a href="checkout6.html" class="btn btn-primary">Add to Cart</a>
+          </div>
         </div>
       </div>
-      <div class="card" style="width: 18rem;">
-        <img src="images/5.png" class="card-img-top" alt="Pink Notebook">
-        <div class="card-body">
-          <h5 class="card-title">Product 5</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="checkout5.html" class="btn btn-primary">Add to Cart</a>
-        </div>
-      </div>
-      <div class="card" style="width: 18rem;">
-        <img src="images/6.png" class="card-img-top" alt="Gray notebook and Pens">
-        <div class="card-body">
-          <h5 class="card-title">Product 6</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="checkout6.html" class="btn btn-primary">Add to Cart</a>
-        </div>
-      </div>
-    
     </main>
-    <footer class="bg-light">
-      <!-- place footer here -->
-      <p>Seven Pens: Staionery Store</p>
-      <p>New York, NY</p>
-      &copy;Established 2024
-      </footer>
+    <footer class="small text-body-secondary mt-5">
+      <div class="container">
+        <div>Seven Pens: Stationery Store New York, NY</div>
+
+        &copy;Established 2024
+      </div>
+    </footer>
     <!-- Bootstrap JavaScript Libraries -->
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"

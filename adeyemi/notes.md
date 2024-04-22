@@ -7,3 +7,4 @@
 - very little time was spent on css and styling the site
 - bootstrap not used at all
 - in summary, great html, little effort on css and design
+- project should represent 24-28 hours of work and I don't see that effort

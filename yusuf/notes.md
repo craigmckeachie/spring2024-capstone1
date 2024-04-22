@@ -2,18 +2,18 @@
 
 - all files needed prettier run on them although manual formatting was good
 - stylesheets not in css folder
-- no global styles, too many custom stylesheets
+- no global stylesheet shared across all pages which creates duplicate styles and inconsistent look to the site
 - image files have spaces in the names (which causes HTML validation issues)
 
 ## HTML Validation
 
--checkout.html invalid, small issue with heading being in head and not in body
+- checkout.html invalid, small issue with heading being in head and not in body
 
-- index.html invalid
-- no body tag
-- content in head
-- stylesheet at bottom not in head
-- list items not in list (ul or ol)
+  - index.html invalid
+  - no body tag
+  - content in head
+  - stylesheet at bottom not in head
+  - list items not in list (ul or ol)
 
 - products.html invalid
 
@@ -25,7 +25,8 @@
   - visual content in head not in body
   - other validation issues
 
-- userregisteration.html invalid
+- userregistration.html invalid
+  - similar issues to login page
 
 ## Code
 
@@ -35,3 +36,6 @@
 
 - needs more use of whitespace
 - not consistent
+
+## General
+- code should represent 24-28 hours of work at a minimum and I don't see that effort in the work submitted

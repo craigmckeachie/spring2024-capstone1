@@ -5,6 +5,7 @@
 - checkout.html valid
 - login.html valid
 - products.html valid
+- no need for the word style in stylesheet if for a specific page: productstyle.css could be product.css for example
 
 ## Design
 

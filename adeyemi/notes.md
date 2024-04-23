@@ -7,4 +7,7 @@
 - very little time was spent on css and styling the site
 - bootstrap not used at all
 - in summary, great html, little effort on css and design
-- project should represent 24-28 hours of work and I don't see that effort
+
+## General
+
+- this project should represent nearly 30 hours of work, if this doesn't be sure to put the time in on the next capstone

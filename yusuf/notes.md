@@ -38,4 +38,4 @@
 - not consistent
 
 ## General
-- code should represent 24-28 hours of work at a minimum and I don't see that effort in the work submitted
+- this project should represent nearly 30 hours of work, if this doesn't be sure to put the time in on the next capstone

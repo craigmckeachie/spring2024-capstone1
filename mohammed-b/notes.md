@@ -15,7 +15,7 @@
   - page had no title
   - Duplicate ID “cardImage” error because used on more than one element, caused 5 errors
 - register.html had no html validation errors
-- in general it looks like not much effort and time was spent on the site...this should represent 24-28 hours of work
+- this should represent nearly 30 hours of work, if this doesn't be sure to put the time in on the next capstone
 
 ## Design
 
